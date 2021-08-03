@@ -1,0 +1,15 @@
+CREATE TABLE NAZWA_TABELI(
+NAZWA	TYP
+NAZWA	TYP
+...)
+
+DROP TABLE NAZWA_TABELI CASCADE(gdy jest wypelniona)/ RESTRICT(gdy jest pusta)
+
+
+INSERT INTO TABELA(ATRYBUT1, ATRYBUT2, ATRYBUT3...)
+VALUES (war_ATRYBUT1, war_ATRYBUT2, war_ATRYBUT3...)
+
+DELETE FROM PRACOWNIK
+WHERE ATRYBUT = war_ATRYBUTU
+
+// jeśli bez słowa WHERE to usuwa wszystkie wiersze z tabeli
